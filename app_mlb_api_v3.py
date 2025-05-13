@@ -15,7 +15,7 @@ sport = "baseball_mlb"
 region = "us"
 market = "h2h"
 
-url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?regions={region}&markets={market}&date={date}&apiKey={API_KEY}"
+url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/?regions={region}&markets={market}&apiKey={API_KEY}"
 
 try:
     response = requests.get(url)
